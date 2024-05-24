@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T15:37:05.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="drjy7w_KoDF6JpL_Qnug" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T15:40:14.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zJvEX1jBNH5GW9SZgrpp" version="24.4.6" type="github">
   <diagram name="Página-1" id="wv0_I9xYi8dKAA7470HY">
     <mxGraphModel dx="1057" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,6 +181,9 @@
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-84" value="XBF/SFTP&lt;br&gt;Banco" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.shared_folder" vertex="1" parent="1">
           <mxGeometry x="565.6" y="1052.5" width="68.8" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-89" target="hSa-tMD5gzLTI7g2pg_K-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-89" value="Compartida Banco" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.shared_folder" vertex="1" parent="1">
           <mxGeometry x="325.6" y="1320" width="68.8" height="80" as="geometry" />
         </mxCell>
@@ -221,6 +224,15 @@
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-116" value="ACGP" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Host_Pools.svg;" vertex="1" parent="1">
           <mxGeometry x="880" y="1058.5" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-119" value="DataLake" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
+          <mxGeometry x="325.6" y="1600" width="70" height="92.11" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-120" target="hSa-tMD5gzLTI7g2pg_K-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-120" value="Exporta" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319.4" y="1450" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
