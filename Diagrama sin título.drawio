@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T17:00:52.544Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.3.1" etag="0RsqDiIadwvuLZcJW_uG" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T14:39:12.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="eHWEAoXCkh4j1U9epc5a" version="24.4.6" type="github">
   <diagram name="Página-1" id="wv0_I9xYi8dKAA7470HY">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-5" target="hSa-tMD5gzLTI7g2pg_K-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="72.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-5" value="Servidor 22" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="240" y="36.5" width="54" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-6" target="hSa-tMD5gzLTI7g2pg_K-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-6" value="Servidores DataByte" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Server_Farm.svg;" vertex="1" parent="1">
+          <mxGeometry x="60" y="32.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-10" target="hSa-tMD5gzLTI7g2pg_K-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-10" target="hSa-tMD5gzLTI7g2pg_K-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-10" value="JOBs SP" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="70" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-11" target="hSa-tMD5gzLTI7g2pg_K-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-11" value="Genera Archivo Destacame.CSV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="42.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-13" target="hSa-tMD5gzLTI7g2pg_K-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-13" value="Genera Exportación_tabla.csv&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="210" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-18" target="hSa-tMD5gzLTI7g2pg_K-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-18" value="Se almacena" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-21" value="Carpeta Interna del servidor" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="593.75" y="330" width="72.5" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
