@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T15:30:11.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="HrWb2RA43zLoPWMq00cj" version="24.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T15:37:05.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="drjy7w_KoDF6JpL_Qnug" version="24.4.6" type="github">
   <diagram name="Página-1" id="wv0_I9xYi8dKAA7470HY">
     <mxGraphModel dx="1057" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-118" value="&lt;b&gt;Continua&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hSa-tMD5gzLTI7g2pg_K-72">
+          <mxGeometry x="-0.5501" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-73" value="Continua Batch" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="960" width="80" height="80" as="geometry" />
         </mxCell>
@@ -168,40 +173,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-81" value="Envía&amp;nbsp;&lt;div&gt;Archivo&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1052.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="320" y="1052.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-84" target="hSa-tMD5gzLTI7g2pg_K-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-84" value="XBF/SFTP&lt;br&gt;Banco" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.shared_folder" vertex="1" parent="1">
-          <mxGeometry x="635.6" y="1052.5" width="68.8" height="80" as="geometry" />
+          <mxGeometry x="565.6" y="1052.5" width="68.8" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-89" value="Compartida Banco" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.shared_folder" vertex="1" parent="1">
-          <mxGeometry x="395.6" y="1320" width="68.8" height="80" as="geometry" />
+          <mxGeometry x="325.6" y="1320" width="68.8" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hSa-tMD5gzLTI7g2pg_K-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-92" target="hSa-tMD5gzLTI7g2pg_K-89">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="hSa-tMD5gzLTI7g2pg_K-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="hSa-tMD5gzLTI7g2pg_K-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1360.0000000000002" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-92" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pgstsertn.cl.bsch&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1330" width="120" height="60" as="geometry" />
+          <mxGeometry x="151" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-94" target="hSa-tMD5gzLTI7g2pg_K-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-94" value="pintxfbxg01.cl.bsch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-100" target="hSa-tMD5gzLTI7g2pg_K-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-100" value="Destacame&lt;div&gt;.csv&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1049" width="70" height="87" as="geometry" />
+          <mxGeometry x="440" y="1049" width="70" height="87" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-101" target="hSa-tMD5gzLTI7g2pg_K-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-101" value="Exportación&lt;br&gt;_tabla.csv" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="394.4" y="1173" width="70" height="87" as="geometry" />
+          <mxGeometry x="324.4" y="1173" width="70" height="87" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hSa-tMD5gzLTI7g2pg_K-81" target="hSa-tMD5gzLTI7g2pg_K-101">
           <mxGeometry relative="1" as="geometry" />
@@ -210,10 +217,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-109" value="Banco comprime y envía archivos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1062.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="1062.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSa-tMD5gzLTI7g2pg_K-116" value="ACGP" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Host_Pools.svg;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1058.5" width="68" height="68" as="geometry" />
+          <mxGeometry x="880" y="1058.5" width="68" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
